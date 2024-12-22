@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Multiple Activities</string>
+    <string name="about_text">
+Activity\n </string>
+    <string name="about_title">Новая активность</string>
+    <string name="switch_text">Переход</string>
+    <string name="username">Кому</string>
+    <string name="gift">Описание</string>
+    <string name="color">Цвет (#FF0000)</string>
+    <string name="left">Слева</string>
+    <string name="top">Сверху</string>
+    <string name="center">По центру</string>
+    <string name="bottom">Снизу</string>
+    <string name="right">Справа</string>
+    <string name="horizontal">Расположение текста по горизонтали</string>
+    <string name="vertical">Расположение текста по вертикали</string>
+    <string name="about">About</string>
+</resources>

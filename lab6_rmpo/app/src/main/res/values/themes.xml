@@ -1,0 +1,8 @@
+<resources>
+    <style name="Theme.Lab6Rmpo" parent="Theme.AppCompat.Light">
+    </style>
+    <style name="Theme.Lab6Rmpo.NoDisplay" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>

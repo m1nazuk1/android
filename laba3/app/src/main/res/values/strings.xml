@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Intent Action</string>
+    <string name="switch_text">Переход</string>
+</resources>

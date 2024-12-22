@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="650dp">
+
+        <TextView
+            android:id="@+id/data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#999"
+            android:textSize="12sp" />
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="40dp"
+        android:weightSum="3">
+        <Button
+            android:id="@+id/add"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:text="@string/buttonAdd"
+            android:backgroundTint="#393"
+            android:background="@drawable/button_shape"/>
+        <Button
+            android:id="@+id/show"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:text="@string/buttonShow"
+            android:backgroundTint="#339"
+            android:layout_marginHorizontal="10dp"
+            android:background="@drawable/button_shape"/>
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:text="@string/buttonDelete"
+            android:backgroundTint="#933"
+            android:background="@drawable/button_shape"/>
+    </LinearLayout>
+</FrameLayout>

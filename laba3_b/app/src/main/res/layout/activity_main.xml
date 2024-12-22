@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnSetText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="задать текст" />
+
+    <Button
+        android:id="@+id/btnSetHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="по горизонтали" />
+
+    <Button
+        android:id="@+id/btnSetVertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="по вертикали" />
+
+    <Button
+        android:id="@+id/btnSetColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="задать цвет" />
+
+    <Button
+        android:id="@+id/btnShowResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="итог" />
+</LinearLayout>

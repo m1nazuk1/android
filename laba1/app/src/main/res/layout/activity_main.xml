@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red_background">
+
+    <!-- TextView1 в левом верхнем углу с зеленым фоном -->
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/green_background"
+        android:fontFamily="@font/times_new_roman"
+        android:text="Пример текста"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:textColor="@android:color/black" />
+
+    <!-- TextView2 по центру активности с размером текста 34 -->
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Центрированный текст"
+        android:textSize="34sp"
+        android:textColor="@android:color/black" />
+</RelativeLayout>

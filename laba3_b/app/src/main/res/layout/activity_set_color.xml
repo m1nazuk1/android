@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextRed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="красный (0-255)" />
+    <EditText
+        android:id="@+id/editTextGreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="зеленый (0-255)" />
+    <EditText
+        android:id="@+id/editTextBlue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="синий (0-255)" />
+    <Button
+        android:id="@+id/btnSaveColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="сохранить" />
+</LinearLayout>

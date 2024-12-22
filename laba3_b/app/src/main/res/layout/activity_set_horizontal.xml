@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/radioGroupHorizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <RadioButton
+        android:id="@+id/radioLeft"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="влево" />
+
+    <RadioButton
+        android:id="@+id/radioCenter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="середина" />
+
+    <RadioButton
+        android:id="@+id/radioRight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="вправо" />
+</RadioGroup>

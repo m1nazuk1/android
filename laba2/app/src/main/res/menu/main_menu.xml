@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Основное подменю для выбора фигуры -->
+    <item
+        android:id="@+id/menu_shape"
+        android:title="Фигура">
+        <menu>
+            <item
+                android:id="@+id/action_circle"
+                android:icon="@drawable/ic_circle"
+                android:title="Круг" />
+            <item
+                android:id="@+id/action_square"
+                android:icon="@drawable/ic_square"
+                android:title="Квадрат" />
+            <item
+                android:id="@+id/action_triangle"
+                android:icon="@drawable/ic_triangle"
+                android:title="Треугольник" />
+        </menu>
+    </item>
+
+    <!-- Основное подменю для выбора цвета -->
+    <item
+        android:id="@+id/menu_color"
+        android:title="Цвет">
+        <menu>
+            <item
+                android:id="@+id/action_red"
+                android:icon="@drawable/ic_red"
+                android:title="Красный" />
+            <item
+                android:id="@+id/action_green"
+                android:icon="@drawable/ic_green"
+                android:title="Зеленый" />
+            <item
+                android:id="@+id/action_blue"
+                android:icon="@drawable/ic_blue"
+                android:title="Синий" />
+            <item
+                android:id="@+id/action_yellow"
+                android:icon="@drawable/ic_yellow"
+                android:title="Желтый" />
+        </menu>
+    </item>
+
+    <!-- Опция для очистки экрана -->
+    <item
+        android:id="@+id/action_clear"
+        android:icon="@drawable/ic_clear"
+        android:title="Очистить" />
+
+</menu>

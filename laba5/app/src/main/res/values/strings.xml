@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Nizami</string>
+    <string name="buttonAdd">Добавить</string>
+    <string name="buttonUpdate">Обновить</string>
+    <string name="buttonShow">Показать</string>
+    <string name="buttonDelete">Удалить</string>
+    <string name="id">ID (для обновления/удаления)</string>
+    <string name="fio">ФИО студента</string>
+    <string name="faculty">Факультет</string>
+    <string name="group">Группа</string>
+</resources>
